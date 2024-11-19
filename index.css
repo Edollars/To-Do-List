@@ -1,0 +1,81 @@
+body{
+    background-color: #333;
+}
+
+.ToDoList{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1{
+    font-size: 3rem;
+    color: #fff;
+}
+
+button{
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: antiquewhite;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.add-button{
+    background-color: #a6ef38;
+}
+
+.add-button:hover{
+    background-color: #526e28; 
+}
+
+.delete-button{
+    background-color: #eb1b1b;
+}
+
+.delete-button:hover{
+    background-color: #672626; 
+}
+.move-button{
+    background-color: #c444ef;
+}
+
+.move-button:hover{
+    background-color: #7e2e7e; 
+}
+
+input[type='text']{
+    font-size: 1.5rem;
+    padding: 15px;
+    border: 5px solid #505ad244;
+    border-radius: 7px;
+    color: #1d1d75;
+}
+ol{
+    padding: 0;
+}
+
+li{
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 12px;
+    background-color: antiquewhite;
+    margin-bottom: 10px;
+    border: 3px solid #acbd8a;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.text{
+    flex-grow: 1;
+}
+
+.delete-button, .move-button{
+    padding: 8px 12px;
+    font-size: 1.2rem;
+    margin-left: 10px;
+}
